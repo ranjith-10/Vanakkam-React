@@ -1,0 +1,37 @@
+Episode - 01 - Ignition
+
+html:5 - Gives the basic Template of HTML.
+
+CDN - Content Delivery Network
+   CDN is a geographically distributed group of servers that caches content close to end-users.
+   CDN allows quick transfer of assets needed for loading Internet.
+   Eg - HTML, CSS, Javascript, Image, Video.
+
+To Start a Basic React App, we need to inject CDN React Links that we get in a script tag.
+  2 script link for React are 
+        React - It is the Core react.
+        ReactDOM - It is injected to use react in Browser.
+    After injecting the script tag, now the project will understand React.
+
+Cross-Origin :
+    Cross-Origin is a HTML attribute set.
+    Provides Support for CORS.
+    Used to define how the element handles cross-origin request.
+   
+CORS - Cross-Origin Resource Sharing
+    Used to load resources other than its own medium.
+
+React.createElement(tag, attribute set, children) :
+    CreateElement is nothing but an Object.
+    CreateElement Object contains props which have attributes & children.
+    Multiple childrens can be added by wrapping the children into an array [].
+    
+ReactDOM.createRoot(document.getElementById("root"));
+    createRoot is used to get the root element where the createelement is to appended.
+    Root will replace all the existing root tag in the HTML.
+    React will work only iside the root rest will work as HTML.
+    
+Render is used to read the react element object and conver it into Browser understandable HTML tags.    
+
+
+    
